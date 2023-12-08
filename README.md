@@ -13,12 +13,19 @@
 	nfsc.sh  - скрипт настройки клиента
 
 Вариант выполнения задания с Ansible
-В каталоге:
-	Vagrantfile - тот же, что и в пошаговом выполнении
-	ansible.cfg
-	hosts - файл инвентаризации
-	nfs.yml
 
+В каталоге:
+
+	Vagrantfile - тот же, что и в пошаговом выполнении
+	
+	ansible.cfg
+	
+	hosts - файл инвентаризации
+	
+	nfs.yml
+	
 Выполнение:
+
 	vagrant up
+	
 	ansible-playbook nfs.yml	
