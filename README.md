@@ -17,15 +17,11 @@
 В каталоге:
 
 	Vagrantfile - тот же, что и в пошаговом выполнении
-	
 	ansible.cfg
-	
 	hosts - файл инвентаризации
-	
 	nfs.yml
 	
 Выполнение:
 
 	vagrant up
-	
 	ansible-playbook nfs.yml	
